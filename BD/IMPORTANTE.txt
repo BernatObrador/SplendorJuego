@@ -1,0 +1,3 @@
+Puede directamente ejecutar la copia de la base de datos en tu xampp, de esta manera todo ira bien.
+Pero también puedes hacer cambios en ella y en cualquiera de sus archivos, pero ten en cuenta que seguramente eso cambie la
+funcionalidad así que también tendrías que cambiar cosas del programa de java.

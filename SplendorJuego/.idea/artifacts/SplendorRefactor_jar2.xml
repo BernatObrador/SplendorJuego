@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SplendorRefactor:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/SplendorRefactor_jar2</output-path>
+    <root id="archive" name="SplendorRefactor.jar">
+      <element id="module-output" name="SplendorRefactor" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.33.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

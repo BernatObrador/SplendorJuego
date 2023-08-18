@@ -1,0 +1,30 @@
+Necesitarás instalar el jdk de java en su última versión.
+Link jdk: https://download.oracle.com/java/20/latest/jdk-20_windows-x64_bin.exe (en ese momento era la última versión, 
+
+chequea que lo siga siendo)
+
+
+
+Abrir la consola de java y ejecutar este comando: 
+
+sudo update-alternatives --config java
+
+
+
+Ahora ejecutaremos java -version para asegurarnos de tener la versión adecuada.
+
+
+
+Usa el comando cd para irte asta la ubicación del .jar de Splendor. (en este caso está una carpeta atrás del cmder, así que usando
+
+cd .. ya estaríamos en la ruta adecuada)
+
+Una vez ahí usa java -jar y el nombre del .jar (en este caso seria: java -jar splendor.jar)
+
+
+
+IMPORTANTE!
+
+Necesitaremos tener la base de datos creada en local, con xampp mismo y coger nuestra ip, ya que el juego te lo va a pedir para
+
+saber a donde tiene que conectarse

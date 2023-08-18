@@ -1,0 +1,30 @@
+Necesitaras instalar el jdk de java en su ultima versión.
+Link jdk: https://download.oracle.com/java/20/latest/jdk-20_windows-x64_bin.exe (Asegurate que esta versión siga siendo la ultima)
+
+
+Después de la instalación, verifica que el directorio de instalación del JDK se haya agregado al PATH del sistema. 
+Esto permitirá que la CMD de Windows encuentre los comandos relacionados con Java.
+
+Haz clic derecho en "Este equipo" o "Mi PC" y selecciona "Propiedades".
+En la ventana que se abre, haz clic en "Configuración avanzada del sistema".
+Luego, haz clic en "Variables de entorno".
+En la sección "Variables del sistema", busca la variable llamada "Path" y selecciónala.
+Haz clic en el botón "Editar" y agrega al final de la línea existente el directorio de instalación del JDK. 
+Por ejemplo: C:\Program Files\Java\jdk1.8.0_291\bin (asegúrate de adaptar el directorio a la versión específica del 
+JDK que hayas instalado).
+Haz clic en "Aceptar" para guardar los cambios.
+Cierra todas las ventanas de CMD que estén abiertas para que los cambios surtan efecto.
+
+Abre una nueva ventana de CMD y escribe el siguiente comando para verificar si Java está configurado correctamente:
+java -version
+
+
+Ahora abre el cmder.exe de la carpeta cmder.
+Usa el comando cd para irte asta la ubicacion del .jar de Splendor. (en este caso esta una carpeta atras del cmder, asi que usando
+cd .. ya estariamos en la ruta adecuada)
+Una vez ahi usa java -jar y el nombre del .jar (en este caso seria: java -jar splendor.jar)
+
+IMPORTANTE!
+Necesitaremos tener la base de datos creada en local, con xampp mismo y coger nuestra ip, ya que el juego te lo va a pedir para
+saber a donde tiene que conectarse
+
